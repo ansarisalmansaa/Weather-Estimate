@@ -15,6 +15,11 @@ api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 - Display results on page
 - Clear previous results upon secondary search
 
+## Priority Matrix 
+<img width="751" alt="Priority" src="https://user-images.githubusercontent.com/84696994/121197148-12de8580-c83f-11eb-9664-dd749b39ffbe.png">
+
+
+
 ## Timeframes
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
