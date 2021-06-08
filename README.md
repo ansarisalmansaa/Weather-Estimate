@@ -9,6 +9,7 @@ This will allow users to search for the Current Weather of a City
 api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 ## Wireframes
 [Wireframe](https://wireframe.cc/F6JxhD)
+Mobile View: (https://wireframe.cc/pro/edit/448658)
 
 #### MVP
 - Axios call API
