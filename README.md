@@ -26,7 +26,7 @@ api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 | Initial HTML setup | H | 3hrs| |  |
 | Axios set up | H | 6hrs|  |  |
 | Render results | H | 6hrs|  |  |
-| Other JS | H | 6hrs| 6hrs |  |
+| Other JS | H | 6hrs| |  |
 | CSS for basic layout | M | 3hrs|  |  |
 | CSS for results | M | 5hrs|  |  |
 | Image placement | M | 3hrs|  |  |
