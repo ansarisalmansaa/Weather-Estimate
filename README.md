@@ -10,7 +10,8 @@ api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 ## Wireframes
 <img width="1026" alt="Desktop_view" src="https://user-images.githubusercontent.com/84696994/121238203-d96d4080-c865-11eb-9359-5385411758a2.png">
 
-<img width="345" alt="Mobile_view" src="https://user-images.githubusercontent.com/84696994/121238212-dc683100-c865-11eb-8084-9014ff6a6db9.png">
+<img width="343" alt="Mobile_view" src="https://user-images.githubusercontent.com/84696994/121238790-792ace80-c866-11eb-93f9-3af4dd1fa0c7.png">
+
 
 
 
