@@ -33,21 +33,21 @@ Day 3: Add Some more style and animations to the App and give some final touches
 |June 7-8| Prompt / Wireframes / MVP / Post-MVP / Priority Matrix / Goals / Timeframes |
 |June 8| Project Approval | 
 |June 8| Core Application Structure (HTML, CSS, etc.) | 
-|June 9| Initial Clickable Model  | Incomplete
-|June 10| MVP | Incomplete
-|Feb 1| Presentations/Project Submission | Incomplete
+|June 9| Initial Clickable Model  | 
+|June 10| MVP | 
+|June 14| Presentations/Project Submission |
 
 ## Timeframes
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Initial HTML setup | H | 2hrs| |  |
-| Axios set up | H | 1hrs|  |  |
-| Render results | H | 2hrs|  |  |
+| Initial HTML setup | H | 3hrs| |  |
+| Axios set up | H | 3hrs|  |  |
+| Render results | H | 3hrs|  |  |
 | Other JS | H | 3hrs| |  |
 | CSS for basic layout | M | 3hrs|  |  |
-| CSS for results | M | 1hrs|  |  |
-| Image placement | M | 2hrs|  |  |
-| Media query | H | 2hrs|  |  |
+| CSS for results | M | 3hrs|  |  |
+| Image placement | M | 3hrs|  |  |
+| Media query | H | 3hrs|  |  |
 | General Research | H | 3hrs|  |  |
 | Debugging | H | 3hrs|  |  |
-| Total | H | 45hrs|  |  |
+| Total | H | 30hrs|  |  |
