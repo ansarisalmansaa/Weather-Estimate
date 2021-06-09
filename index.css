@@ -60,17 +60,80 @@ a:hover{
     color: rgb(230, 72, 45);
     transition: .8s;
 }
+.container-welcome{
+    text-align: center;
+    padding-bottom:40px;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 22px;
+    width: 100%;
+}
+.search{
+display: flex;
+padding-bottom: 6%;
+margin: 15px;
+}
+#search-text{
+    
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-radius:  30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+button{
+    border-radius: 30px;
+    margin:auto;
+    width: 20%;
+    height: 40px;
+    color: rgb(245, 247, 222);
+    border-color: rgb(19, 63, 158);
+    background: rgb(19, 63, 158);
+    font-size: 16px;
+}
+button:hover{
+    background: rgb(19, 63, 158);
+    color: rgb(230, 72, 45);
+    transition: .8s;
+}
 
-/* footer{
-    background-color: red;
+
+.container{
+    width: 1200px;
+    color: white;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+    
+}
+.container .display-box{
+    position: relative;
+    background-image: linear-gradient(to bottom, #2b08dd, #002fbb, #002f8b, #002557, #021825);
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom:140px;
+}
+
+.display-box{
+    margin: 5%;
+}
+
+footer{
     display: flex;
+    background-image: linear-gradient(to bottom, #2b08dd, #002fbb, #002f8b, #002557, #021825);
+    height: 50px;
+    float: inline-start;
+    margin-top: 100%;
 }
 footer h3{
-    color: black;
+    color: white;
+    font-size: 16px;
     text-align: center;
-    font-family:'Montserrat',sans-serif;
-} */
-
+}
 
 @media screen and(min-width: 300px) and (max-width: 900px) {
     label.logo{
@@ -84,7 +147,7 @@ footer h3{
 }
 @media (max-width: 700px) {
     ul{
-        position: fixed;
+        position:fixed ;
         width: 100%;
         height:100vh;
         background: #2c3e50;
