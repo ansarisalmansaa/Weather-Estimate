@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link defer href="index.js">
+    <script defer src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
@@ -27,22 +28,22 @@
         <h1>Welcome To Weather Estimate APP</h1>
     </div>
     <div class="search">
-        <input type="text" placeholder="Search for City" id="search-text"> 
+     <input type="text" placeholder="Search for City" id="search-text"> 
         
-        <button>Search</button>
+     <button>Search</button>
     </div>
 </header>
 <div class="container">
-    <div class="display-box">
+    <div class="display-box" id="one">
         <h1>1</h1>
     </div>
-    <div class="display-box">
+    <div class="display-box" id="two">
         <h1>2</h1>
     </div>
-    <div class="display-box">
+    <div class="display-box" id="three">
         <h1>3</h1>
     </div>
-    <div class="display-box">
+    <div class="display-box" id="four">
         <h1>4</h1>
     </div>
 
