@@ -23,7 +23,6 @@ const searchCity = async ()=>{
         const url = await axios.get(`${domain}${city}&appid=${api_key}`);
         
         
-        
         // City Name
         const cityName = url.data.name;
         const cityN = document.createElement('h1');

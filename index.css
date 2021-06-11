@@ -15,21 +15,29 @@ body{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     background-color: darkblue;
     min-height: 4vh;
-    width: 200vh;
+    width: 100%;
 
 }
-label.logo{
+/* /* /* label.logo{
     font-weight: bold;
     color:rgb(238, 238, 238);
     letter-spacing: 2px;
     font-size: 25px;
-    padding-left: 2px;
-    flex-shrink: initial;
+    /* padding-left: 2px; 
+    flex-shrink: initial; 
     
+}  */
+#logoW{
+    color: white;
+}
+
+.weather-icon{
+padding-left: 2%;
+size: 18px;
 }
 span{
     color: rgb(230, 72, 45);
@@ -41,17 +49,16 @@ nav ul{
     width:300px;
     font-weight: bold;
     letter-spacing: 3px;
-    float: center;
+    float: left;
     padding: 20px;
-    margin-right: 20%;
+    margin-left: 25%;
 }
 nav ul li{
     display: inline-block;
-    /* background-color: red; */
-    color: whitesmoke;
+    
     display: inline-block;
     font-size: 15px;
-    padding: 15px;
+    padding: 10px;
 
 }
 nav ul li a{
@@ -75,14 +82,16 @@ a:hover{
     padding-bottom:40px;
     padding-top: 30px;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 23px;
     width: 100%;
+    padding-block: 6px;
 }
 .search{
 display: flex;
 padding-bottom: 2%;
 margin: 15px;
 justify-content: space-around;
+flex-direction: column;
 }
 #search-text{
     
@@ -93,9 +102,12 @@ justify-content: space-around;
     margin-right: auto;
     margin-left: auto;
     justify-content: space-evenly;
+    margin-bottom: 5px;
+    
     
 }
 button{
+    
     border-radius: 30px;
     margin: auto;
     width: 20%;
@@ -119,46 +131,49 @@ button:hover{
     margin: 0 auto;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
-    position: relative;
+    position: center;
     
 }
 .container .display-box{
-    position: relative;
+    position: cetner;
     background-image: linear-gradient(to bottom, #2b08dd, #002fbb, #002f8b, #002557, #021825);
     padding: 25px 20px 20px;
     text-align: center;
     overflow: hidden;
     border-radius: 10px 10px 10px 10px;
-    padding-bottom:100px;
+    padding-bottom:75px;
+
    
 }
 
 .display-box{
-    margin: 5%;
+    margin: 2px;
+    margin-bottom: 5px;
 }
 
 footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     display: flex;
     background-color: darkblue;
     /* float: inline-start; */
-    margin-top: auto;
+    margin-top: 80px;
     width: 100%;
 }
 footer h2{
     color: white;
     font-size: 10px;
     margin-left: 100%;
+    flex-direction: row;
 }
 
  @media screen and(min-width: 300px) and (max-width: 900px) {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .container {
-      width: 400px;
+      width: 350px;
       height: auto;
     }
     .container-welcome{
@@ -188,6 +203,25 @@ footer h2{
     }
     nav{
         width: 100%;
+        flex-direction: column;
+        align-items: center;
         /* margin: 1%; */
     }
+    nav ul{
+        margin-left: 11px;
+    }
+    .search{
+        flex-direction: column;
+        margin-bottom: 4px;
+    }
+    #search-text{
+        width: 50%;
+    }
+    button{
+        width: 30%;
+    }
+    #four{
+        margin-bottom: 6px;
+    }
+    
   }
