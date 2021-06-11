@@ -153,21 +153,10 @@ footer h2{
 }
 
  @media screen and(min-width: 300px) and (max-width: 900px) {
-    label.logo{
-
-        font-size: 1em;
-        /* padding-left: 90px; */
-    }
-    nav ul li a{
-        font-size: 2px;
-    }
-    nav{
-        width: 100%;
-        /* margin: 1%; */
-    }
+    
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
       width: 400px;
       height: auto;
@@ -186,5 +175,19 @@ footer h2{
         font-size: 20px;
         position: relative;
     }
+    label.logo{
+
+        font-size: 1em;
+        /* padding-left: 90px; */
+        display: none;
+    }
     
+    
+    nav ul li a{
+        font-size: 14px;
+    }
+    nav{
+        width: 100%;
+        /* margin: 1%; */
+    }
   }

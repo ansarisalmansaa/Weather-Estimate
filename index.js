@@ -6,12 +6,12 @@ const containerOne = document.querySelector('#one');
 const containerTwo = document.querySelector('#two');
 const containerThree = document.querySelector('#three');
 const containerFour = document.querySelector('#four');
-const allContainers = document.querySelector('.display-box');
+const allContainers = document.querySelectorAll('.display-box');
 
 const searchRemove = ()=>{
-while(allContainers.lastChild){
-    (allContainers).removeChild(allContainers.lastChild)
-}
+    allContainers.forEach((container) => {
+        container.innerHTML= ''
+    })
 }
 
 
