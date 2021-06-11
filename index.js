@@ -14,6 +14,8 @@ while(allContainers.lastChild){
 }
 }
 
+
+
 const searchCity = async ()=>{
     searchRemove();
     try{
@@ -25,7 +27,7 @@ const searchCity = async ()=>{
         // City Name
         const cityName = url.data.name;
         const cityN = document.createElement('h1');
-        const longitude = url.data.coord.lon;
+        // const longitude = url.data.coord.lon;
         cityN.style.color = 'Yellow';
         cityN.style.padding = "1rem";
         cityN.innerText = `${cityName}`;
@@ -90,10 +92,6 @@ const searchCity = async ()=>{
         
         
 
-        
-    
-        
-
     }
     catch (error){
         console.error(error.message);
@@ -101,12 +99,6 @@ const searchCity = async ()=>{
 
 }
 
-// Display Funtion
-// const display = (city) =>{
-    
-    
-
-// }
 
 
 

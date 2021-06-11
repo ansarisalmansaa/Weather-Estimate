@@ -134,6 +134,8 @@ button:hover{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     display: flex;
     background-color: darkblue;
     /* float: inline-start; */
@@ -143,32 +145,41 @@ footer{
 footer h2{
     color: white;
     font-size: 10px;
-    
     margin-left: 100%;
 }
 
- @media screen and(min-width: 300px) and (max-width: 900px) {
+ @media screen and(min-width: 300px) and (max-width: 750px) {
     label.logo{
 
-        font-size: 5em;
-        padding-left: 50px;
+        font-size: 1em;
+        /* padding-left: 90px; */
     }
     nav ul li a{
-        font-size: 16px;
+        font-size: 2px;
     }
     nav{
         width: 100%;
-        margin: 5%;
+        /* margin: 1%; */
     }
 }
 
 @media (max-width: 600px) {
     .container {
-      width: 500px;
+      width: 400px;
       height: auto;
     }
-    button{
-        display: flex;
+    .container-welcome{
+        font-size: 10px;;
+    }
+    nav{
+        display: fixed;
+        width: 100%;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .logo{
+        float: inline-end;
     }
     
   }
