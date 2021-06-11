@@ -19,7 +19,7 @@ nav{
     align-items: center;
     background-color: darkblue;
     min-height: 4vh;
-    width: 100%;
+    width: 200vh;
 
 }
 label.logo{
@@ -28,6 +28,7 @@ label.logo{
     letter-spacing: 2px;
     font-size: 25px;
     padding-left: 2px;
+    flex-shrink: initial;
     
 }
 span{
@@ -81,6 +82,7 @@ a:hover{
 display: flex;
 padding-bottom: 2%;
 margin: 15px;
+justify-content: space-around;
 }
 #search-text{
     
@@ -90,6 +92,8 @@ margin: 15px;
     border-radius:  30px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: space-evenly;
+    
 }
 button{
     border-radius: 30px;
@@ -148,7 +152,7 @@ footer h2{
     margin-left: 100%;
 }
 
- @media screen and(min-width: 300px) and (max-width: 750px) {
+ @media screen and(min-width: 300px) and (max-width: 900px) {
     label.logo{
 
         font-size: 1em;
@@ -178,8 +182,9 @@ footer h2{
     nav ul li a{
         font-size: 10px;
     }
-    .logo{
-        float: inline-end;
+    label{
+        font-size: 20px;
+        position: relative;
     }
     
   }
