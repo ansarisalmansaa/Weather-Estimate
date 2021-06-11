@@ -156,6 +156,10 @@ footer h2{
     nav ul li a{
         font-size: 16px;
     }
+    nav{
+        width: 100%;
+        margin: 5%;
+    }
 }
 
 @media (max-width: 600px) {
